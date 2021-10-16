@@ -19,8 +19,9 @@
         margin: 0px;
     }
     .exampleImg {
-        height: fit-content;
         border-radius: 10px;
+        background-position: center center;
+        background-size: cover;
     }
     .exampleImg p {
         width: 250px;
