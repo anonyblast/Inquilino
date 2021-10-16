@@ -1,0 +1,164 @@
+.logo img {
+    margin-left: 20px;
+    height: 100px;
+    width: auto;
+}
+
+body {
+    background-color: #121212;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #121212;
+}
+
+.links-nav {
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+}
+
+.links-nav a {
+    text-decoration: none;
+    color: #9b00ff;
+    font-family: sans-serif;
+}
+
+.links-nav li {
+    padding-right: 20px;
+    list-style: none;
+}
+
+.links-nav .plus {
+    list-style: none;
+    padding: 0;
+    height: 20px;
+    width: 50px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.exampleImg {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    background-image: url('img/pexels-sergio-souza-5048573.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    width: auto;
+    height: 500px;
+}
+
+.exampleImg p {
+    max-width: 400px;
+    height: auto;
+    text-align: left;
+    padding: 20px;
+    background-color: #121212;
+    font-family: sans-serif;
+    font-size: medium;
+    font-style: normal;
+    color: whitesmoke;
+    margin-bottom: 0;
+    border-radius: 0px 10px 0px 0px;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+#Card {
+    background-color: #9b00ff;
+    color: whitesmoke;
+    margin: 25px;
+    width: auto;
+    height: max-content;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.title-part {
+    font-family: sans;
+    color: whitesmoke;
+    margin: 25px 0px 0px 20px;
+    text-align: center;
+}
+
+.span {
+    display: flex;
+    justify-content: flex-end;
+    color: #e4e5e2;
+    font-size: small;
+}
+
+.localization {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.map-des {
+    width: 1000px;
+    height: auto;
+    margin: 0px 25px 25px 25px;
+    color: whitesmoke;
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+.contacts ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.contacts {
+    align-items: center;
+    margin: 25px 0px 0px 0px;
+    background-color: #9b00ff;
+}
+
+.contacts li {
+    padding: 25px;
+}
+
+.contacts a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: medium;
+    color: #e4e5e2;
+    padding: 10px;
+}
+
+.dev-tools {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #e4e5e2;
+    font-family: sans-serif;
+    font-size: medium;
+    background-color: #9b00ff;
+    padding: 15px;
+}
+
+.dev-tools img {
+    border-radius: 50%;
+    height: 50px;
+    width: auto;
+    padding: 10px;
+}
